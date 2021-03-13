@@ -19,32 +19,21 @@
 
 
 
+
+
+
 /*-------------------------------Question # 2 Start------------------------------- */
-function (firstName,lastName,age) {  
-    console.log(`This  is ${firstName}  ${lastName} & my age is ${age}`);
-}
- firstName = "Ahsan";
-lastName = "Sabir";
- age = 19
+// const callBack = function (firstName,lastName,age) {  
+//     console.log(`This  is ${firstName}  ${lastName} & my age is ${age}`);
+// }
+// callBack("Ahsan","Sabir",19)
  
-setTimeout(message, 3000);
+// setTimeout(callBack, 3000);
+
 
 
 
 /*-------------------------------Question # 2 End------------------------------  */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -72,3 +61,23 @@ setTimeout(message, 3000);
 // document.write(`<br /><br />Your Password is : ${password}`);
 
 /*-------------------------------Question # 3 End------------------------------  */
+
+
+
+
+/*-------------------------------Question # 4 Start------------------------------  */
+
+// list = document.querySelector(".mylist");
+// html = ``;
+// const days = ["monday","tuesday","wedsday","thursday","friday", "saturday", "sunday"]
+// days.forEach((mylist) =>{
+//     html += `<li style="color: red">${mylist}</li>`
+// })
+// list.innerHTML = html
+// document.querySelector(".mylist").style.backgroundColor = "blue";
+// document.querySelector(".mylist").style.textAlign = "center";
+// document.querySelector(".mylist").style.margin = "50px";
+
+
+
+/*-------------------------------Question # 4 End------------------------------  */
