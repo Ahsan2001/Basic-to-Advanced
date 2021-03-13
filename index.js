@@ -30,9 +30,6 @@
  
 // setTimeout(callBack, 3000);
 
-
-
-
 /*-------------------------------Question # 2 End------------------------------  */
 
 
@@ -81,3 +78,60 @@
 
 
 /*-------------------------------Question # 4 End------------------------------  */
+
+
+
+
+
+/*-------------------------------Question # 5 Start------------------------------  */
+
+
+var grade = document.getElementsByTagName("input")
+
+
+
+switch (grade)
+{
+case 'A+':
+  console.log("Marks >= 90");
+  break;
+case 'A':
+  console.log("Marks [ >= 80 and <90 ]");
+  break;
+case 'B+':
+  console.log("Marks [ >= 70 and <80 ]");
+  break;
+case 'B':
+  console.log("Marks [ >= 60 and <70 ]");
+  break;
+case 'C':
+  console.log("Marks < 60");
+  break;
+default:
+  console.log("Wrong grade.........");
+}
+/*-------------------------------Question # 5 End------------------------------  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------Question # 6 Start------------------------------  */
+
+// let carNames = ["Aston Martin", "Audi", "BMW", "Cadillac", "Chevrolet", "Datsun",  "Ferrari", "Ford"]
+
+// carNames.forEach( (item,index) => {
+//     document.write(  index + ":" + item + "<br>"); 
+
+// });
+
+/*-------------------------------Question # 6 End------------------------------  */
