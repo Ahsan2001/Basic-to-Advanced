@@ -20,26 +20,6 @@
 
 
 
-
-
-/*-------------------------------Question # 2 Start------------------------------- */
-// const callBack = function (firstName,lastName,age) {  
-//     console.log(`This  is ${firstName}  ${lastName} & my age is ${age}`);
-// }
-// callBack("Ahsan","Sabir",19)
- 
-// setTimeout(callBack, 3000);
-
-/*-------------------------------Question # 2 End------------------------------  */
-
-
-
-
-
-
-
-
-
 /*-------------------------------Question # 3 Start------------------------------- */
 // var password = prompt(`Enter Your Password`);
 
@@ -76,57 +56,39 @@
 // document.querySelector(".mylist").style.margin = "50px";
 
 
-
-/*-------------------------------Question # 4 End------------------------------  */
-
-
-
-
-
 /*-------------------------------Question # 5 Start------------------------------  */
 
 
-//Write a program to take input the marks obtained in three subjects 
-var math = Number(prompt("Enter Math Marks"));
-var physics = Number(prompt("Enter Physics Marks"));
-var chemistry = Number(prompt("Enter Chemistry Marks"));
-// total marks
-var totalMark = 300;
-
-//Compute & show the resulting percentage on your page
-var obtainedMark = Number(math+physics+chemistry);
-var percentage = obtainedMark/totalMark*100; 
-//Show the total marks, marks obtained, percentage, grade & remarks
-document.write("<h1>Mark Sheet</h1>");
-document.write( "Total Mark" +"  "+totalMark +"</br>"); 
-document.write( "Obtained Mark" +"  "+obtainedMark  +"</br>");
-document.write( "Percentage" +"  "+percentage +"%" +"</br>" );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------------------------------Question # 5 End------------------------------  */
-
-
-
-
-
-
-
-
-
-
+// //Write a program to take input the marks obtained in three subjects 
+// var math = Number(prompt("Enter Math Marks"));
+// var physics = Number(prompt("Enter Physics Marks"));
+// var chemistry = Number(prompt("Enter Chemistry Marks"));
+// // total marks
+// var totalMark = 300;
+// //Compute & show the resulting percentage on your page
+// var obtainedMark = Number(math+physics+chemistry);
+// var percentage = obtainedMark/totalMark*100; 
+// //Show the total marks, marks obtained, percentage, grade & remarks
+// document.write("<h1>Mark Sheet</h1>");
+// document.write( "Total Mark" +"  "+totalMark +"</br>"); 
+// document.write( "Obtained Mark" +"  "+obtainedMark  +"</br>");
+// document.write( "Percentage" +"  "+percentage +"%" +"</br>" );
+// switch (percentage){
+//     case  100:
+//     document.write("Grade A")
+//     break;
+//     case  70:
+//     document.write("Grade B")
+//     break;
+//     case  60:
+//     document.write("Grade C")
+//     break;
+//     case  50:
+//     document.write("Grade D")
+//     break;
+//     default:
+//     document.write("Fail")
+// }
 
 
 
