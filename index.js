@@ -134,3 +134,28 @@
 
 
 /*-------------------------------Question # 9 End------------------------------  */
+
+
+
+/*-------------------------------Question # 8 start------------------------------  */
+
+
+// Arrays are used to store multiple datatypes in a single variable. We can update the value of array
+// Syntax of array is [] example are  given in below
+// e.g
+//   var aray = ["Daniyal", "Hamza", 94, `my name is ahsan`];
+//   console.log(aray); 
+
+// Method of Array
+
+// var aray = ["Daniyal", "Hamza", 94, `my name is ahsan`];
+
+// aray[2] = 95;                                            //it update the value if index 2
+// console.log(aray.join("@"));                             //it add the @ symbol between array 
+// console.log(aray.concat(["Math","Physic"]))              //it create another array and join in first array varaible
+// console.log(aray.pop());                                 //it remove the value at last index                               
+// console.log(aray.shift());                               //it remove the value at 0 index
+// console.log(aray.push("ehsan"));                         //it add the value at last index 
+// console.log(aray.unshift("sabir"));                      //it add the value at 0 index 
+
+/*-------------------------------Question # 8 end------------------------------  */
